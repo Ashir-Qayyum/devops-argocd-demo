@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: ashirqayyum/argocd-demo
-  newTag: b700498
+  newTag: 9c33a8c
