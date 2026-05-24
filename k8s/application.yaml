@@ -7,10 +7,10 @@ metadata:
 
   annotations:
     argocd-image-updater.argoproj.io/image-list: demo=ashirqayyum/argocd-demo
-    argocd-image-updater.argoproj.io/demo.update-strategy: newest-build
+    argocd-image-updater.argoproj.io/demo.update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/write-back-target: kustomization
-    argocd-image-updater.argoproj.io/demo.allow-tags: regexp:^[a-f0-9]{7,40}$
+    argocd-image-updater.argoproj.io/demo.allow-tags: regexp:.*
 
 spec:
   project: default
